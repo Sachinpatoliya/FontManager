@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class FontManager {
+struct FontManager {
     //deviceWidthSize == Your default screen width. For example, if your designer created a design using iPhone 11, then the size will be the width of iPhone 11 and so on... Therefore, you should adjust it according to your designed screens.
     static let deviceWidthSize = 414.0
     
